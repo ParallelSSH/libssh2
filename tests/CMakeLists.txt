@@ -65,6 +65,7 @@ set(TESTS
   public_key_auth_succeeds_with_correct_encrypted_rsa_key
   keyboard_interactive_auth_fails_with_wrong_response
   keyboard_interactive_auth_succeeds_with_correct_response
+  agent_forward_succeds
   )
 
 if(NOT CRYPTO_BACKEND STREQUAL "mbedTLS")
